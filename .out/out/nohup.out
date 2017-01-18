@@ -1,0 +1,36 @@
+Fontconfig warning: "/etc/fonts/conf.d/65-droid-sans-fonts.conf", line 61: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/65-droid-sans-fonts.conf", line 96: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-garuda-synthetic.conf", line 9: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-garuda-synthetic.conf", line 21: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-kinnari-synthetic.conf", line 9: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-kinnari-synthetic.conf", line 21: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-loma-synthetic.conf", line 12: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-umpush-synthetic.conf", line 9: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-umpush-synthetic.conf", line 21: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 9: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 22: Having multiple <family> in <alias> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 22: Having multiple <family> in <alias> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 22: Having multiple <family> in <alias> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 26: Having multiple <family> in <alias> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 31: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 40: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-unfonts-core.conf", line 11: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/65-droid-sans-fonts.conf", line 61: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/65-droid-sans-fonts.conf", line 96: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-garuda-synthetic.conf", line 9: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-garuda-synthetic.conf", line 21: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-kinnari-synthetic.conf", line 9: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-kinnari-synthetic.conf", line 21: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-loma-synthetic.conf", line 12: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-umpush-synthetic.conf", line 9: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/89-tlwg-umpush-synthetic.conf", line 21: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 9: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 22: Having multiple <family> in <alias> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 22: Having multiple <family> in <alias> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 22: Having multiple <family> in <alias> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 26: Having multiple <family> in <alias> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 31: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-nanum.conf", line 40: Having multiple values in <test> isn't supported and may not works as expected
+Fontconfig warning: "/etc/fonts/conf.d/90-fonts-unfonts-core.conf", line 11: Having multiple values in <test> isn't supported and may not works as expected
+[5925:0328/175959:INFO:CONSOLE(125)] "Uncaught NetworkError: A network error occurred.", source: file:///tmp/.org.chromium.Chromium.lN0VPb/js/script.js (125)
+[5925:0328/175959:INFO:CONSOLE(125)] "binded to keyboard", source: /tmp/.org.chromium.Chromium.lN0VPb/server/server.js (125)

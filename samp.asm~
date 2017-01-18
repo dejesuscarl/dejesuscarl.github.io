@@ -1,0 +1,107 @@
+section .data
+	books equ 23
+	id equ 0
+	title equ 1
+	tlen equ 11
+	author equ 12
+	alen equ 22
+	idprompt db "Enter id: "
+	idplen equ $-idprompt
+	titleprompt db "Enter title: "
+	tplen equ $-titleprompt
+	authorprompt db "Enter author: "
+	aplen equ $-authorprompt
+	newLine db 10	 
+	; 3 elements
+	arr equ 3
+section .bss
+	; books = 23 (allocating 23 bytes for books)
+	; structure
+	bs resb books * 3
+	cnt resb 1	
+		
+section .text
+	global _start
+_start:
+	
+	mov byte[cnt], 0
+	mov esi, 0
+	
+input: 
+	cmp byte[cnt], 3
+	je output
+	
+	; get id
+	mov eax, 3
+	mov ebx, 0
+	lea ecx, [bs + esi + id]
+	mov edx, 2
+	int 80h
+	
+	; get title
+	mov eax, 3
+	mov ebx, 0
+	lea ecx, [bs + esi + title]
+	mov edx, 11
+	int 80h
+	; get the length of title from eax
+	; store to tlen
+	dec eax
+	mov byte[bs + esi + tlen], al
+	
+	; get author
+	mov eax, 3
+	mov ebx, 0
+	lea ecx, [bs + esi + author]
+	mov edx, 11
+	int 80h
+	; get the length if author from eax
+	; store to alen
+	dec eax
+	mov byte[bs + esi + alen], al
+	
+	inc byte[cnt]
+	add esi, books
+
+	jmp input
+	
+output:
+	mov byte[cnt], 0
+	mov esi, 0
+	
+print:
+	cmp byte[cnt], 3
+	je terminate
+	
+	mov eax, 4
+	mov ebx, 1
+	lea ecx, [bs + esi + id] 
+	mov edx, 1
+	int 80h
+	
+	mov eax, 4
+	mov ebx, 1
+	lea ecx, [bs + esi + title] 
+	mov edx, 0
+	mov dl, [bs + esi + tlen]
+	int 80h
+	
+	mov eax, 4
+	mov ebx, 1
+	lea ecx, [bs + author + esi] 
+	mov edx, 0
+	mov dl, [bs + alen + esi]
+	int 80h
+	
+	inc byte[cnt]
+	add esi, books
+	
+	jmp print
+	
+terminate:
+	mov eax, 1
+	mov ebx, 0
+	int 80h
+	
+; search by student number to edit/search/cancel
+; 10 max number of students

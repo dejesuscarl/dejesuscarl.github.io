@@ -1,0 +1,7 @@
+capital [A-Z]
+alpha [a-z]
+
+%%
+
+{alpha}+ printf("found word\n");
+{capital}{alpha}* {printf("found capitalized word: \n"); printf("'%s'\n", yytext);}
